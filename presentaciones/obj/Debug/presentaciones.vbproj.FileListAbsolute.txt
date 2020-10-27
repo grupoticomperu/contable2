@@ -1,0 +1,132 @@
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\presentaciones.exe.config
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.exe
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.xml
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.pdb
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\presentaciones.exe
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\presentaciones.pdb
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\presentaciones.xml
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\Entidades.dll
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\Negocios.dll
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\Datos.dll
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\Entidades.pdb
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\Entidades.xml
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\Negocios.pdb
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\Negocios.xml
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\Datos.pdb
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\Datos.xml
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.vbprojResolveAssemblyReference.cache
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.Form1.resources
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.frmEleccionEmpresa.resources
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.frmPlanContable.resources
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.frmUsuarios.resources
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.LoginForm1.resources
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.MDIPrincipal.resources
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.Resources.resources
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.vbproj.GenerateResource.Cache
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.frmEmpresas.resources
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.frmCuentasContables.resources
+D:\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.frmEmpresasPeriodos.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.vbprojResolveAssemblyReference.cache
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.Form1.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.Form2.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.frmCuentasContables.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.frmEleccionEmpresa.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.frmEmpresas.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.frmEmpresasPeriodos.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.frmPlanContable.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.frmUsuarios.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.frmUsuariosEmpresa.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.LoginForm1.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.MDIPrincipal.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.Resources.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.vbproj.GenerateResource.Cache
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.xml
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\presentaciones.exe.config
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\presentaciones.exe
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\presentaciones.pdb
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\presentaciones.xml
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\Entidades.dll
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\Negocios.dll
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\Datos.dll
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\Entidades.pdb
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\Entidades.xml
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\Negocios.pdb
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\Negocios.xml
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\Datos.pdb
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\bin\Debug\Datos.xml
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.exe
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.pdb
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.vbprojResolveAssemblyReference.cache
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmCuentasContables.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmEleccionEmpresa.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmEmpresas.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmEmpresasPeriodos.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmNuevaCompra.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmPlanContable.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmUsuarios.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmUsuariosEmpresa.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.LoginForm1.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.MDIPrincipal.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.Resources.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.vbproj.GenerateResource.Cache
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.xml
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\presentaciones.exe.config
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\presentaciones.exe
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\presentaciones.pdb
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\presentaciones.xml
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\Datos.dll
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\Entidades.dll
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\Negocios.dll
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\Datos.pdb
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\Datos.xml
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\Entidades.pdb
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\Entidades.xml
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\Negocios.pdb
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\Negocios.xml
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.exe
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.pdb
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmNiveldeCuentaContable.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmTipoCuentaContable.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmAnalisisCuenta.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmNuevaCompraAgregarCuentas.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmEscogerPlanContable.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmListadeCentrodeCostos.resources
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\presentaciones.exe.config
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.exe
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.xml
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.pdb
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\presentaciones.exe
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\presentaciones.pdb
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\presentaciones.xml
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\Datos.dll
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\Entidades.dll
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\Negocios.dll
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\Datos.pdb
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\Datos.xml
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\Entidades.pdb
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\Entidades.xml
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\Negocios.pdb
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\bin\Debug\Negocios.xml
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.vbprojResolveAssemblyReference.cache
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmAnalisisCuenta.resources
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmCuentasContables.resources
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmEleccionEmpresa.resources
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmEmpresas.resources
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmEmpresasPeriodos.resources
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmEscogerPlanContable.resources
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmListadeCentrodeCostos.resources
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmNiveldeCuentaContable.resources
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmNuevaCompra.resources
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmNuevaCompraAgregarCuentas.resources
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmPlanContable.resources
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmTipoCuentaContable.resources
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmUsuarios.resources
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmUsuariosEmpresa.resources
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.LoginForm1.resources
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.MDIPrincipal.resources
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.Resources.resources
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.vbproj.GenerateResource.Cache
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmBancos.resources
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmMonedas.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmBancos.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmMonedas.resources

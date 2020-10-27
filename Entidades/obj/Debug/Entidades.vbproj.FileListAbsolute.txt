@@ -1,0 +1,34 @@
+D:\ticomcontable-Michael-14nov 2018\TicomContable\Entidades\bin\Debug\Entidades.dll
+D:\ticomcontable-Michael-14nov 2018\TicomContable\Entidades\bin\Debug\Entidades.pdb
+D:\ticomcontable-Michael-14nov 2018\TicomContable\Entidades\bin\Debug\Entidades.xml
+D:\ticomcontable-Michael-14nov 2018\TicomContable\Entidades\obj\Debug\Entidades.Resources.resources
+D:\ticomcontable-Michael-14nov 2018\TicomContable\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.Cache
+D:\ticomcontable-Michael-14nov 2018\TicomContable\Entidades\obj\Debug\Entidades.dll
+D:\ticomcontable-Michael-14nov 2018\TicomContable\Entidades\obj\Debug\Entidades.xml
+D:\ticomcontable-Michael-14nov 2018\TicomContable\Entidades\obj\Debug\Entidades.pdb
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\Entidades\bin\Debug\Entidades.dll
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\Entidades\bin\Debug\Entidades.pdb
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\Entidades\bin\Debug\Entidades.xml
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\Entidades\obj\Debug\Entidades.Resources.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.Cache
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\Entidades\obj\Debug\Entidades.dll
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\Entidades\obj\Debug\Entidades.xml
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\Entidades\obj\Debug\Entidades.pdb
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\bin\Debug\Entidades.dll
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\bin\Debug\Entidades.pdb
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\bin\Debug\Entidades.xml
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.vbprojResolveAssemblyReference.cache
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.Resources.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.Cache
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.dll
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.xml
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.pdb
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\bin\Debug\Entidades.dll
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\bin\Debug\Entidades.pdb
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\bin\Debug\Entidades.xml
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.vbprojResolveAssemblyReference.cache
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.Resources.resources
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.Cache
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.dll
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.xml
+G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.pdb
