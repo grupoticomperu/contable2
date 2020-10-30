@@ -277,8 +277,8 @@ Partial Class MDIPrincipal
         Me.UndoToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black
         Me.UndoToolStripMenuItem.Name = "UndoToolStripMenuItem"
         Me.UndoToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Z), System.Windows.Forms.Keys)
-        Me.UndoToolStripMenuItem.Size = New System.Drawing.Size(204, 22)
-        Me.UndoToolStripMenuItem.Text = "&Deshacer"
+        Me.UndoToolStripMenuItem.Size = New System.Drawing.Size(220, 22)
+        Me.UndoToolStripMenuItem.Text = "&Asiento de Apertura"
         '
         'RedoToolStripMenuItem
         '
@@ -286,13 +286,13 @@ Partial Class MDIPrincipal
         Me.RedoToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black
         Me.RedoToolStripMenuItem.Name = "RedoToolStripMenuItem"
         Me.RedoToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Y), System.Windows.Forms.Keys)
-        Me.RedoToolStripMenuItem.Size = New System.Drawing.Size(204, 22)
-        Me.RedoToolStripMenuItem.Text = "&Rehacer"
+        Me.RedoToolStripMenuItem.Size = New System.Drawing.Size(220, 22)
+        Me.RedoToolStripMenuItem.Text = "&Reaperurar"
         '
         'ToolStripSeparator6
         '
         Me.ToolStripSeparator6.Name = "ToolStripSeparator6"
-        Me.ToolStripSeparator6.Size = New System.Drawing.Size(201, 6)
+        Me.ToolStripSeparator6.Size = New System.Drawing.Size(217, 6)
         '
         'CutToolStripMenuItem
         '
@@ -300,8 +300,8 @@ Partial Class MDIPrincipal
         Me.CutToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black
         Me.CutToolStripMenuItem.Name = "CutToolStripMenuItem"
         Me.CutToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.X), System.Windows.Forms.Keys)
-        Me.CutToolStripMenuItem.Size = New System.Drawing.Size(204, 22)
-        Me.CutToolStripMenuItem.Text = "Cor&tar"
+        Me.CutToolStripMenuItem.Size = New System.Drawing.Size(220, 22)
+        Me.CutToolStripMenuItem.Text = "Asiento de Cierre"
         '
         'CopyToolStripMenuItem
         '
@@ -309,7 +309,7 @@ Partial Class MDIPrincipal
         Me.CopyToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black
         Me.CopyToolStripMenuItem.Name = "CopyToolStripMenuItem"
         Me.CopyToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
-        Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(204, 22)
+        Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(220, 22)
         Me.CopyToolStripMenuItem.Text = "&Copiar"
         '
         'PasteToolStripMenuItem
@@ -318,19 +318,19 @@ Partial Class MDIPrincipal
         Me.PasteToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black
         Me.PasteToolStripMenuItem.Name = "PasteToolStripMenuItem"
         Me.PasteToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
-        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(204, 22)
+        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(220, 22)
         Me.PasteToolStripMenuItem.Text = "&Pegar"
         '
         'ToolStripSeparator7
         '
         Me.ToolStripSeparator7.Name = "ToolStripSeparator7"
-        Me.ToolStripSeparator7.Size = New System.Drawing.Size(201, 6)
+        Me.ToolStripSeparator7.Size = New System.Drawing.Size(217, 6)
         '
         'SelectAllToolStripMenuItem
         '
         Me.SelectAllToolStripMenuItem.Name = "SelectAllToolStripMenuItem"
         Me.SelectAllToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.A), System.Windows.Forms.Keys)
-        Me.SelectAllToolStripMenuItem.Size = New System.Drawing.Size(204, 22)
+        Me.SelectAllToolStripMenuItem.Size = New System.Drawing.Size(220, 22)
         Me.SelectAllToolStripMenuItem.Text = "Seleccionar &todo"
         '
         'ViewMenu

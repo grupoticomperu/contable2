@@ -57,7 +57,6 @@ E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\pr
 E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.exe
 E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable\presentaciones\obj\Debug\presentaciones.pdb
 E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.vbprojResolveAssemblyReference.cache
-E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmCuentasContables.resources
 E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmEleccionEmpresa.resources
 E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmEmpresas.resources
 E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmEmpresasPeriodos.resources
@@ -130,3 +129,4 @@ G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable201
 G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmMonedas.resources
 E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmBancos.resources
 E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmMonedas.resources
+E:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\presentaciones\obj\Debug\presentaciones.frmAsientoApertura.resources

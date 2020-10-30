@@ -165,4 +165,14 @@ Public Class MDIPrincipal
         MDIform.MdiParent = Me
         MDIform.Show()
     End Sub
+
+    Private Sub RedoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RedoToolStripMenuItem.Click
+
+    End Sub
+
+    Private Sub UndoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UndoToolStripMenuItem.Click
+        Dim MDIform As New frmAsientoApertura
+        MDIform.MdiParent = Me
+        MDIform.Show()
+    End Sub
 End Class

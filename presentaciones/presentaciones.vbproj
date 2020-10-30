@@ -78,16 +78,16 @@
     <Compile Include="frmAnalisisCuenta.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmAsientoApertura.Designer.vb">
+      <DependentUpon>frmAsientoApertura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAsientoApertura.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmBancos.Designer.vb">
       <DependentUpon>frmBancos.vb</DependentUpon>
     </Compile>
     <Compile Include="frmBancos.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmCuentasContables.Designer.vb">
-      <DependentUpon>frmCuentasContables.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmCuentasContables.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmEleccionEmpresa.Designer.vb">
@@ -200,11 +200,11 @@
     <EmbeddedResource Include="frmAnalisisCuenta.resx">
       <DependentUpon>frmAnalisisCuenta.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmAsientoApertura.resx">
+      <DependentUpon>frmAsientoApertura.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmBancos.resx">
       <DependentUpon>frmBancos.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmCuentasContables.resx">
-      <DependentUpon>frmCuentasContables.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEleccionEmpresa.resx">
       <DependentUpon>frmEleccionEmpresa.vb</DependentUpon>
