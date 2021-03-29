@@ -89,7 +89,7 @@ Partial Class frmPlanContable
         Me.btnNuevo.Location = New System.Drawing.Point(11, 13)
         Me.btnNuevo.Name = "btnNuevo"
         Me.btnNuevo.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
-        Me.btnNuevo.Size = New System.Drawing.Size(150, 45)
+        Me.btnNuevo.Size = New System.Drawing.Size(150, 27)
         Me.btnNuevo.TabIndex = 224
         Me.btnNuevo.Text = "Nuevo"
         Me.btnNuevo.UseVisualStyleBackColor = False
@@ -104,7 +104,7 @@ Partial Class frmPlanContable
         Me.btnModificar.Location = New System.Drawing.Point(171, 13)
         Me.btnModificar.Name = "btnModificar"
         Me.btnModificar.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
-        Me.btnModificar.Size = New System.Drawing.Size(150, 45)
+        Me.btnModificar.Size = New System.Drawing.Size(150, 27)
         Me.btnModificar.TabIndex = 223
         Me.btnModificar.Text = "Modificar"
         Me.btnModificar.UseVisualStyleBackColor = False
@@ -119,7 +119,7 @@ Partial Class frmPlanContable
         Me.btnCancelar.Location = New System.Drawing.Point(489, 13)
         Me.btnCancelar.Name = "btnCancelar"
         Me.btnCancelar.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
-        Me.btnCancelar.Size = New System.Drawing.Size(150, 45)
+        Me.btnCancelar.Size = New System.Drawing.Size(150, 27)
         Me.btnCancelar.TabIndex = 195
         Me.btnCancelar.Text = "Cancelar"
         Me.btnCancelar.UseVisualStyleBackColor = False
@@ -134,7 +134,7 @@ Partial Class frmPlanContable
         Me.btnGuardar.Location = New System.Drawing.Point(330, 13)
         Me.btnGuardar.Name = "btnGuardar"
         Me.btnGuardar.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
-        Me.btnGuardar.Size = New System.Drawing.Size(150, 45)
+        Me.btnGuardar.Size = New System.Drawing.Size(150, 27)
         Me.btnGuardar.TabIndex = 192
         Me.btnGuardar.Text = "Guardar"
         Me.btnGuardar.UseVisualStyleBackColor = False
@@ -172,7 +172,7 @@ Partial Class frmPlanContable
         Me.dgvLista.Name = "dgvLista"
         Me.dgvLista.ReadOnly = True
         Me.dgvLista.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvLista.Size = New System.Drawing.Size(968, 318)
+        Me.dgvLista.Size = New System.Drawing.Size(968, 261)
         Me.dgvLista.TabIndex = 217
         '
         'id_plancontable
@@ -259,9 +259,9 @@ Partial Class frmPlanContable
         Me.gbCuenta10.Controls.Add(Me.txtCtacte)
         Me.gbCuenta10.Controls.Add(Me.cboBanco)
         Me.gbCuenta10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.gbCuenta10.Location = New System.Drawing.Point(760, 428)
+        Me.gbCuenta10.Location = New System.Drawing.Point(760, 378)
         Me.gbCuenta10.Name = "gbCuenta10"
-        Me.gbCuenta10.Size = New System.Drawing.Size(248, 212)
+        Me.gbCuenta10.Size = New System.Drawing.Size(248, 156)
         Me.gbCuenta10.TabIndex = 202
         Me.gbCuenta10.TabStop = False
         Me.gbCuenta10.Text = "Para La cuenta 10"
@@ -270,7 +270,7 @@ Partial Class frmPlanContable
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(26, 132)
+        Me.Label3.Location = New System.Drawing.Point(26, 106)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(52, 13)
         Me.Label3.TabIndex = 234
@@ -280,7 +280,7 @@ Partial Class frmPlanContable
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(27, 79)
+        Me.Label2.Location = New System.Drawing.Point(27, 63)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(102, 13)
         Me.Label2.TabIndex = 233
@@ -290,7 +290,7 @@ Partial Class frmPlanContable
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(26, 23)
+        Me.Label1.Location = New System.Drawing.Point(26, 18)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(43, 13)
         Me.Label1.TabIndex = 231
@@ -300,7 +300,7 @@ Partial Class frmPlanContable
         '
         Me.cboMoneda.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboMoneda.FormattingEnabled = True
-        Me.cboMoneda.Location = New System.Drawing.Point(29, 151)
+        Me.cboMoneda.Location = New System.Drawing.Point(29, 121)
         Me.cboMoneda.Name = "cboMoneda"
         Me.cboMoneda.Size = New System.Drawing.Size(191, 24)
         Me.cboMoneda.TabIndex = 13
@@ -308,7 +308,7 @@ Partial Class frmPlanContable
         'txtCtacte
         '
         Me.txtCtacte.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCtacte.Location = New System.Drawing.Point(30, 97)
+        Me.txtCtacte.Location = New System.Drawing.Point(30, 80)
         Me.txtCtacte.Name = "txtCtacte"
         Me.txtCtacte.Size = New System.Drawing.Size(191, 23)
         Me.txtCtacte.TabIndex = 12
@@ -317,7 +317,7 @@ Partial Class frmPlanContable
         '
         Me.cboBanco.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboBanco.FormattingEnabled = True
-        Me.cboBanco.Location = New System.Drawing.Point(29, 41)
+        Me.cboBanco.Location = New System.Drawing.Point(29, 35)
         Me.cboBanco.Name = "cboBanco"
         Me.cboBanco.Size = New System.Drawing.Size(191, 24)
         Me.cboBanco.TabIndex = 11
@@ -349,7 +349,7 @@ Partial Class frmPlanContable
         Me.btnEliminar.Location = New System.Drawing.Point(648, 13)
         Me.btnEliminar.Name = "btnEliminar"
         Me.btnEliminar.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
-        Me.btnEliminar.Size = New System.Drawing.Size(150, 45)
+        Me.btnEliminar.Size = New System.Drawing.Size(150, 27)
         Me.btnEliminar.TabIndex = 230
         Me.btnEliminar.Text = "Eliminar"
         Me.btnEliminar.UseVisualStyleBackColor = False
@@ -378,7 +378,7 @@ Partial Class frmPlanContable
         Me.btnSalir.Location = New System.Drawing.Point(806, 13)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
-        Me.btnSalir.Size = New System.Drawing.Size(150, 45)
+        Me.btnSalir.Size = New System.Drawing.Size(150, 27)
         Me.btnSalir.TabIndex = 232
         Me.btnSalir.Text = "Salir"
         Me.btnSalir.UseVisualStyleBackColor = False
@@ -406,9 +406,9 @@ Partial Class frmPlanContable
         Me.Panel1.Controls.Add(Me.btnEliminar)
         Me.Panel1.Controls.Add(Me.btnCancelar)
         Me.Panel1.Controls.Add(Me.btnGuardar)
-        Me.Panel1.Location = New System.Drawing.Point(38, 647)
+        Me.Panel1.Location = New System.Drawing.Point(38, 540)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(969, 71)
+        Me.Panel1.Size = New System.Drawing.Size(969, 51)
         Me.Panel1.TabIndex = 234
         '
         'gbCtasContables
@@ -433,16 +433,16 @@ Partial Class frmPlanContable
         Me.gbCtasContables.Controls.Add(Me.txtDebe)
         Me.gbCtasContables.Controls.Add(Me.txtHaber)
         Me.gbCtasContables.Controls.Add(Me.txtCtacontable)
-        Me.gbCtasContables.Location = New System.Drawing.Point(38, 428)
+        Me.gbCtasContables.Location = New System.Drawing.Point(38, 378)
         Me.gbCtasContables.Name = "gbCtasContables"
-        Me.gbCtasContables.Size = New System.Drawing.Size(716, 212)
+        Me.gbCtasContables.Size = New System.Drawing.Size(716, 156)
         Me.gbCtasContables.TabIndex = 235
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(516, 84)
+        Me.Label4.Location = New System.Drawing.Point(516, 56)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(148, 13)
         Me.Label4.TabIndex = 258
@@ -453,7 +453,7 @@ Partial Class frmPlanContable
         Me.cboBalance.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboBalance.FormattingEnabled = True
         Me.cboBalance.Items.AddRange(New Object() {"SI", "NO"})
-        Me.cboBalance.Location = New System.Drawing.Point(519, 104)
+        Me.cboBalance.Location = New System.Drawing.Point(519, 76)
         Me.cboBalance.Name = "cboBalance"
         Me.cboBalance.Size = New System.Drawing.Size(150, 24)
         Me.cboBalance.TabIndex = 6
@@ -463,7 +463,7 @@ Partial Class frmPlanContable
         '
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(522, 141)
+        Me.Label21.Location = New System.Drawing.Point(522, 100)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(98, 13)
         Me.Label21.TabIndex = 256
@@ -473,7 +473,7 @@ Partial Class frmPlanContable
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(375, 141)
+        Me.Label20.Location = New System.Drawing.Point(375, 100)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(94, 13)
         Me.Label20.TabIndex = 255
@@ -483,7 +483,7 @@ Partial Class frmPlanContable
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(203, 141)
+        Me.Label19.Location = New System.Drawing.Point(203, 100)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(97, 13)
         Me.Label19.TabIndex = 254
@@ -493,7 +493,7 @@ Partial Class frmPlanContable
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(193, 83)
+        Me.Label18.Location = New System.Drawing.Point(193, 55)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(166, 13)
         Me.Label18.TabIndex = 253
@@ -503,7 +503,7 @@ Partial Class frmPlanContable
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(354, 83)
+        Me.Label15.Location = New System.Drawing.Point(354, 55)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(148, 13)
         Me.Label15.TabIndex = 252
@@ -513,7 +513,7 @@ Partial Class frmPlanContable
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(22, 83)
+        Me.Label16.Location = New System.Drawing.Point(22, 55)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(163, 13)
         Me.Label16.TabIndex = 251
@@ -523,7 +523,7 @@ Partial Class frmPlanContable
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(193, 21)
+        Me.Label14.Location = New System.Drawing.Point(193, 5)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(204, 13)
         Me.Label14.TabIndex = 250
@@ -533,7 +533,7 @@ Partial Class frmPlanContable
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(20, 21)
+        Me.Label13.Location = New System.Drawing.Point(20, 5)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(147, 13)
         Me.Label13.TabIndex = 249
@@ -543,7 +543,7 @@ Partial Class frmPlanContable
         '
         Me.cboAnalisis.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboAnalisis.FormattingEnabled = True
-        Me.cboAnalisis.Location = New System.Drawing.Point(205, 158)
+        Me.cboAnalisis.Location = New System.Drawing.Point(205, 117)
         Me.cboAnalisis.Name = "cboAnalisis"
         Me.cboAnalisis.Size = New System.Drawing.Size(159, 24)
         Me.cboAnalisis.TabIndex = 8
@@ -552,7 +552,7 @@ Partial Class frmPlanContable
         '
         Me.chkCentrodecostos.AutoSize = True
         Me.chkCentrodecostos.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkCentrodecostos.Location = New System.Drawing.Point(25, 162)
+        Me.chkCentrodecostos.Location = New System.Drawing.Point(25, 121)
         Me.chkCentrodecostos.Name = "chkCentrodecostos"
         Me.chkCentrodecostos.Size = New System.Drawing.Size(159, 17)
         Me.chkCentrodecostos.TabIndex = 7
@@ -563,7 +563,7 @@ Partial Class frmPlanContable
         '
         Me.cboTipoCuenta.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboTipoCuenta.FormattingEnabled = True
-        Me.cboTipoCuenta.Location = New System.Drawing.Point(357, 103)
+        Me.cboTipoCuenta.Location = New System.Drawing.Point(357, 75)
         Me.cboTipoCuenta.Name = "cboTipoCuenta"
         Me.cboTipoCuenta.Size = New System.Drawing.Size(152, 24)
         Me.cboTipoCuenta.TabIndex = 5
@@ -572,7 +572,7 @@ Partial Class frmPlanContable
         '
         Me.cboNivelCuenta.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboNivelCuenta.FormattingEnabled = True
-        Me.cboNivelCuenta.Location = New System.Drawing.Point(196, 103)
+        Me.cboNivelCuenta.Location = New System.Drawing.Point(196, 75)
         Me.cboNivelCuenta.Name = "cboNivelCuenta"
         Me.cboNivelCuenta.Size = New System.Drawing.Size(151, 24)
         Me.cboNivelCuenta.TabIndex = 4
@@ -580,7 +580,7 @@ Partial Class frmPlanContable
         'txtNombrectacontable
         '
         Me.txtNombrectacontable.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNombrectacontable.Location = New System.Drawing.Point(196, 42)
+        Me.txtNombrectacontable.Location = New System.Drawing.Point(196, 26)
         Me.txtNombrectacontable.Name = "txtNombrectacontable"
         Me.txtNombrectacontable.Size = New System.Drawing.Size(473, 23)
         Me.txtNombrectacontable.TabIndex = 2
@@ -588,7 +588,7 @@ Partial Class frmPlanContable
         'txtEquivalente
         '
         Me.txtEquivalente.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtEquivalente.Location = New System.Drawing.Point(22, 104)
+        Me.txtEquivalente.Location = New System.Drawing.Point(22, 76)
         Me.txtEquivalente.Name = "txtEquivalente"
         Me.txtEquivalente.Size = New System.Drawing.Size(158, 23)
         Me.txtEquivalente.TabIndex = 3
@@ -596,7 +596,7 @@ Partial Class frmPlanContable
         'txtDebe
         '
         Me.txtDebe.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDebe.Location = New System.Drawing.Point(373, 159)
+        Me.txtDebe.Location = New System.Drawing.Point(373, 118)
         Me.txtDebe.Name = "txtDebe"
         Me.txtDebe.Size = New System.Drawing.Size(136, 23)
         Me.txtDebe.TabIndex = 9
@@ -604,7 +604,7 @@ Partial Class frmPlanContable
         'txtHaber
         '
         Me.txtHaber.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtHaber.Location = New System.Drawing.Point(525, 159)
+        Me.txtHaber.Location = New System.Drawing.Point(525, 118)
         Me.txtHaber.Name = "txtHaber"
         Me.txtHaber.Size = New System.Drawing.Size(144, 23)
         Me.txtHaber.TabIndex = 10
@@ -612,7 +612,7 @@ Partial Class frmPlanContable
         'txtCtacontable
         '
         Me.txtCtacontable.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCtacontable.Location = New System.Drawing.Point(23, 42)
+        Me.txtCtacontable.Location = New System.Drawing.Point(23, 26)
         Me.txtCtacontable.Name = "txtCtacontable"
         Me.txtCtacontable.Size = New System.Drawing.Size(157, 23)
         Me.txtCtacontable.TabIndex = 1
@@ -629,7 +629,7 @@ Partial Class frmPlanContable
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1038, 735)
+        Me.ClientSize = New System.Drawing.Size(1038, 591)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.gbCtasContables)
         Me.Controls.Add(Me.Button4)

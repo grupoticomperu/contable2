@@ -330,7 +330,7 @@ Public Class frmPlanContable
                 End If
                 'controlamos si la cuenta contable ya eexiste
                 Dim existecuenta As New DataTable
-                existecuenta = nobj.nCrudListar("select * from cuentascontables where id_ctacontable='" & numCuenta & "'")
+                existecuenta = nobj.nCrudListar("select * from cuentascontables where id_ctacontable='" & numCuenta & "' and id_empresa='" & EmpresaSeleccionada & "'")
                 If existecuenta.Rows.Count > 0 Then
                     MsgBox("La cuenta contable  " & numCuenta & "  ya existe")
                     txtCtacontable.Focus()
@@ -339,7 +339,7 @@ Public Class frmPlanContable
                     'controlamos si la cuenta padre existe
                     cuentaPadre = numCuenta.Substring(0, (numCuenta.Length - 1))
                     Dim existeCuentaPadre As New DataTable
-                    existeCuentaPadre = nobj.nCrudListar("select * from cuentascontables where id_ctacontable='" & cuentaPadre & "'")
+                    existeCuentaPadre = nobj.nCrudListar("select * from cuentascontables where id_ctacontable='" & cuentaPadre & "' and id_empresa='" & EmpresaSeleccionada & "'")
                     If existeCuentaPadre.Rows.Count > 0 Then
                         txtNombrectacontable.Focus()
                     Else
@@ -354,7 +354,7 @@ Public Class frmPlanContable
             Else
                 'cuando la cuenta es de unsolo digito
                 Dim existecuenta As New DataTable
-                existecuenta = nobj.nCrudListar("select * from cuentascontables where id_ctacontable='" & numCuenta & "'")
+                existecuenta = nobj.nCrudListar("select * from cuentascontables where id_ctacontable='" & numCuenta & "' and id_empresa='" & EmpresaSeleccionada & "'")
                 If existecuenta.Rows.Count > 0 Then
                     MsgBox("La cuenta contable  " & numCuenta & "  ya existe")
                     txtCtacontable.Focus()
@@ -403,7 +403,7 @@ Public Class frmPlanContable
                             Exit Sub
                         End If
                     End If
-                   
+
                 Else
                     'cuando la cuenta es de unsolo digito
                     If numCuenta <> numcuenta1 Then
@@ -510,7 +510,7 @@ Public Class frmPlanContable
 
     End Sub
 
-   
+
 
     Private Sub txtCtacontable_TextChanged(sender As Object, e As EventArgs)
 

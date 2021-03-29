@@ -32,3 +32,21 @@ G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable201
 G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.dll
 G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.xml
 G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\bin\Debug\Entidades.dll
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\bin\Debug\Entidades.xml
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.vbprojResolveAssemblyReference.cache
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.Resources.resources
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.Cache
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.dll
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.xml
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Entidades\obj\Debug\Entidades.pdb
+C:\TicomContable Michael 2015\Entidades\bin\Debug\Entidades.dll
+C:\TicomContable Michael 2015\Entidades\bin\Debug\Entidades.pdb
+C:\TicomContable Michael 2015\Entidades\bin\Debug\Entidades.xml
+C:\TicomContable Michael 2015\Entidades\obj\Debug\Entidades.vbprojResolveAssemblyReference.cache
+C:\TicomContable Michael 2015\Entidades\obj\Debug\Entidades.Resources.resources
+C:\TicomContable Michael 2015\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.Cache
+C:\TicomContable Michael 2015\Entidades\obj\Debug\Entidades.dll
+C:\TicomContable Michael 2015\Entidades\obj\Debug\Entidades.xml
+C:\TicomContable Michael 2015\Entidades\obj\Debug\Entidades.pdb

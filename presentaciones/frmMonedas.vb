@@ -191,4 +191,8 @@ Public Class frmMonedas
             Me.Dispose()
         End If
     End Sub
+
+    Private Sub dgvLista_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvLista.CellContentClick
+
+    End Sub
 End Class

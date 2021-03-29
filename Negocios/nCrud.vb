@@ -7,6 +7,7 @@ Public Class nCrud
 
     Public Function nCrudListar(query As String) As DataTable
         Return dobj.dEjecutarQueryLista(query)
+
     End Function
     Public Function nCrudInsertar(delimitador As String, tabla As String, aCampos As String, aValores As String) As String
         Dim campos, valores As String()

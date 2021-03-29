@@ -46,3 +46,27 @@ G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable201
 G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Datos\obj\Debug\Datos.dll
 G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Datos\obj\Debug\Datos.xml
 G:\TICOM CONTABLE MICHAEL 2018\ticomcontable-Michael-14nov 2018\TicomContable2015\Datos\obj\Debug\Datos.pdb
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Datos\bin\Debug\Datos.dll
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Datos\bin\Debug\Datos.pdb
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Datos\bin\Debug\Datos.xml
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Datos\bin\Debug\Entidades.dll
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Datos\bin\Debug\Entidades.pdb
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Datos\bin\Debug\Entidades.xml
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Datos\obj\Debug\Datos.vbprojResolveAssemblyReference.cache
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Datos\obj\Debug\Datos.Resources.resources
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Datos\obj\Debug\Datos.vbproj.GenerateResource.Cache
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Datos\obj\Debug\Datos.dll
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Datos\obj\Debug\Datos.xml
+C:\Users\Michael\Desktop\TICOM CONTABLE POR MICHAEL\ticomcontable-Michael-14nov 2018\TicomContable2015\Datos\obj\Debug\Datos.pdb
+C:\TicomContable Michael 2015\Datos\obj\Debug\Datos.vbprojResolveAssemblyReference.cache
+C:\TicomContable Michael 2015\Datos\obj\Debug\Datos.Resources.resources
+C:\TicomContable Michael 2015\Datos\obj\Debug\Datos.vbproj.GenerateResource.Cache
+C:\TicomContable Michael 2015\Datos\obj\Debug\Datos.dll
+C:\TicomContable Michael 2015\Datos\obj\Debug\Datos.xml
+C:\TicomContable Michael 2015\Datos\obj\Debug\Datos.pdb
+C:\TicomContable Michael 2015\Datos\bin\Debug\Datos.dll
+C:\TicomContable Michael 2015\Datos\bin\Debug\Datos.pdb
+C:\TicomContable Michael 2015\Datos\bin\Debug\Datos.xml
+C:\TicomContable Michael 2015\Datos\bin\Debug\Entidades.dll
+C:\TicomContable Michael 2015\Datos\bin\Debug\Entidades.pdb
+C:\TicomContable Michael 2015\Datos\bin\Debug\Entidades.xml

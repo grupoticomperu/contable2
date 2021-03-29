@@ -90,6 +90,12 @@
     <Compile Include="frmBancos.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmCodigodelLibrooRegistro.Designer.vb">
+      <DependentUpon>frmCodigodelLibrooRegistro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCodigodelLibrooRegistro.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmEleccionEmpresa.Designer.vb">
       <DependentUpon>frmEleccionEmpresa.vb</DependentUpon>
     </Compile>
@@ -106,6 +112,12 @@
       <DependentUpon>frmEmpresasPeriodos.vb</DependentUpon>
     </Compile>
     <Compile Include="frmEmpresasPeriodos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEntidadFinanciera.Designer.vb">
+      <DependentUpon>frmEntidadFinanciera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEntidadFinanciera.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmEscogerPlanContable.Designer.vb">
@@ -144,6 +156,24 @@
     <Compile Include="frmNuevaCompraAgregarCuentas.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmNuevaCompraMercaderias.Designer.vb">
+      <DependentUpon>frmNuevaCompraMercaderias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNuevaCompraMercaderias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOperacionesCompraVenta.Designer.vb">
+      <DependentUpon>frmOperacionesCompraVenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOperacionesCompraVenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPeriodos.Designer.vb">
+      <DependentUpon>frmPeriodos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPeriodos.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmPlanContable.Designer.vb">
       <DependentUpon>frmPlanContable.vb</DependentUpon>
     </Compile>
@@ -154,6 +184,24 @@
       <DependentUpon>frmTipoCuentaContable.vb</DependentUpon>
     </Compile>
     <Compile Include="frmTipoCuentaContable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTipodeComprobantedePago.Designer.vb">
+      <DependentUpon>frmTipodeComprobantedePago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTipodeComprobantedePago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTipodeDocumentodeIdentidad.Designer.vb">
+      <DependentUpon>frmTipodeDocumentodeIdentidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTipodeDocumentodeIdentidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTipodeMediodePago.Designer.vb">
+      <DependentUpon>frmTipodeMediodePago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTipodeMediodePago.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmUsuarios.Designer.vb">
@@ -206,6 +254,9 @@
     <EmbeddedResource Include="frmBancos.resx">
       <DependentUpon>frmBancos.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmCodigodelLibrooRegistro.resx">
+      <DependentUpon>frmCodigodelLibrooRegistro.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmEleccionEmpresa.resx">
       <DependentUpon>frmEleccionEmpresa.vb</DependentUpon>
     </EmbeddedResource>
@@ -214,6 +265,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmEmpresasPeriodos.resx">
       <DependentUpon>frmEmpresasPeriodos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEntidadFinanciera.resx">
+      <DependentUpon>frmEntidadFinanciera.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEscogerPlanContable.resx">
       <DependentUpon>frmEscogerPlanContable.vb</DependentUpon>
@@ -233,11 +287,29 @@
     <EmbeddedResource Include="frmNuevaCompraAgregarCuentas.resx">
       <DependentUpon>frmNuevaCompraAgregarCuentas.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevaCompraMercaderias.resx">
+      <DependentUpon>frmNuevaCompraMercaderias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOperacionesCompraVenta.resx">
+      <DependentUpon>frmOperacionesCompraVenta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPeriodos.resx">
+      <DependentUpon>frmPeriodos.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPlanContable.resx">
       <DependentUpon>frmPlanContable.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmTipoCuentaContable.resx">
       <DependentUpon>frmTipoCuentaContable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTipodeComprobantedePago.resx">
+      <DependentUpon>frmTipodeComprobantedePago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTipodeDocumentodeIdentidad.resx">
+      <DependentUpon>frmTipodeDocumentodeIdentidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTipodeMediodePago.resx">
+      <DependentUpon>frmTipodeMediodePago.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmUsuarios.resx">
       <DependentUpon>frmUsuarios.vb</DependentUpon>

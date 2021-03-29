@@ -22,18 +22,16 @@ Partial Class frmAsientoApertura
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.txtNumeroAsiento = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.txtDebeD = New System.Windows.Forms.TextBox()
         Me.txtDiferenciaD = New System.Windows.Forms.TextBox()
         Me.txtHaberD = New System.Windows.Forms.TextBox()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.txtDebeSoles = New System.Windows.Forms.TextBox()
         Me.txtHaberSoles = New System.Windows.Forms.TextBox()
@@ -47,6 +45,13 @@ Partial Class frmAsientoApertura
         Me.txtGlosa = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.dgvLista = New System.Windows.Forms.DataGridView()
+        Me.id = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.id_asiento_apertura = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.cuenta = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.moneda = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.tipo_cambio = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.debe = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.haber = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -57,11 +62,11 @@ Partial Class frmAsientoApertura
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.TextBox8 = New System.Windows.Forms.TextBox()
@@ -70,15 +75,8 @@ Partial Class frmAsientoApertura
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.id = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.id_asiento_apertura = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.cuenta = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.moneda = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.tipo_cambio = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.debe = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.haber = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.GroupBox2.SuspendLayout()
-        Me.GroupBox1.SuspendLayout()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
         CType(Me.dgvLista, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox3.SuspendLayout()
         Me.SuspendLayout()
@@ -102,28 +100,11 @@ Partial Class frmAsientoApertura
         Me.Label8.TabIndex = 68
         Me.Label8.Text = "Número o CUO"
         '
-        'GroupBox2
-        '
-        Me.GroupBox2.Controls.Add(Me.Label6)
-        Me.GroupBox2.Controls.Add(Me.Label11)
-        Me.GroupBox2.Controls.Add(Me.Label12)
-        Me.GroupBox2.Controls.Add(Me.txtDebeD)
-        Me.GroupBox2.Controls.Add(Me.txtDiferenciaD)
-        Me.GroupBox2.Controls.Add(Me.txtHaberD)
-        Me.GroupBox2.Font = New System.Drawing.Font("Century Gothic", 8.5!)
-        Me.GroupBox2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(114, Byte), Integer))
-        Me.GroupBox2.Location = New System.Drawing.Point(609, 373)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(126, 183)
-        Me.GroupBox2.TabIndex = 65
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Dólares"
-        '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Century Gothic", 8.5!)
-        Me.Label6.Location = New System.Drawing.Point(6, 123)
+        Me.Label6.Location = New System.Drawing.Point(491, 482)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(70, 17)
         Me.Label6.TabIndex = 50
@@ -133,7 +114,7 @@ Partial Class frmAsientoApertura
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Century Gothic", 8.5!)
-        Me.Label11.Location = New System.Drawing.Point(6, 75)
+        Me.Label11.Location = New System.Drawing.Point(776, 433)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(76, 17)
         Me.Label11.TabIndex = 46
@@ -143,7 +124,7 @@ Partial Class frmAsientoApertura
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Century Gothic", 8.5!)
-        Me.Label12.Location = New System.Drawing.Point(6, 27)
+        Me.Label12.Location = New System.Drawing.Point(631, 433)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(73, 17)
         Me.Label12.TabIndex = 45
@@ -152,7 +133,7 @@ Partial Class frmAsientoApertura
         'txtDebeD
         '
         Me.txtDebeD.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDebeD.Location = New System.Drawing.Point(6, 48)
+        Me.txtDebeD.Location = New System.Drawing.Point(621, 500)
         Me.txtDebeD.Name = "txtDebeD"
         Me.txtDebeD.Size = New System.Drawing.Size(114, 22)
         Me.txtDebeD.TabIndex = 38
@@ -162,7 +143,7 @@ Partial Class frmAsientoApertura
         'txtDiferenciaD
         '
         Me.txtDiferenciaD.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDiferenciaD.Location = New System.Drawing.Point(6, 143)
+        Me.txtDiferenciaD.Location = New System.Drawing.Point(479, 500)
         Me.txtDiferenciaD.Name = "txtDiferenciaD"
         Me.txtDiferenciaD.Size = New System.Drawing.Size(114, 22)
         Me.txtDiferenciaD.TabIndex = 40
@@ -172,35 +153,18 @@ Partial Class frmAsientoApertura
         'txtHaberD
         '
         Me.txtHaberD.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtHaberD.Location = New System.Drawing.Point(6, 95)
+        Me.txtHaberD.Location = New System.Drawing.Point(756, 500)
         Me.txtHaberD.Name = "txtHaberD"
         Me.txtHaberD.Size = New System.Drawing.Size(114, 22)
         Me.txtHaberD.TabIndex = 42
         Me.txtHaberD.Text = "0.00"
         Me.txtHaberD.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.Label7)
-        Me.GroupBox1.Controls.Add(Me.txtDebeSoles)
-        Me.GroupBox1.Controls.Add(Me.txtHaberSoles)
-        Me.GroupBox1.Controls.Add(Me.txtDiferenciaSoles)
-        Me.GroupBox1.Controls.Add(Me.Label5)
-        Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Font = New System.Drawing.Font("Century Gothic", 8.5!)
-        Me.GroupBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(114, Byte), Integer))
-        Me.GroupBox1.Location = New System.Drawing.Point(749, 373)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(126, 183)
-        Me.GroupBox1.TabIndex = 64
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Soles"
-        '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Century Gothic", 8.5!)
-        Me.Label7.Location = New System.Drawing.Point(6, 123)
+        Me.Label7.Location = New System.Drawing.Point(491, 433)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(70, 17)
         Me.Label7.TabIndex = 50
@@ -209,7 +173,7 @@ Partial Class frmAsientoApertura
         'txtDebeSoles
         '
         Me.txtDebeSoles.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDebeSoles.Location = New System.Drawing.Point(6, 47)
+        Me.txtDebeSoles.Location = New System.Drawing.Point(621, 451)
         Me.txtDebeSoles.Name = "txtDebeSoles"
         Me.txtDebeSoles.Size = New System.Drawing.Size(114, 22)
         Me.txtDebeSoles.TabIndex = 49
@@ -219,7 +183,7 @@ Partial Class frmAsientoApertura
         'txtHaberSoles
         '
         Me.txtHaberSoles.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtHaberSoles.Location = New System.Drawing.Point(6, 95)
+        Me.txtHaberSoles.Location = New System.Drawing.Point(756, 451)
         Me.txtHaberSoles.Name = "txtHaberSoles"
         Me.txtHaberSoles.Size = New System.Drawing.Size(114, 22)
         Me.txtHaberSoles.TabIndex = 48
@@ -229,7 +193,7 @@ Partial Class frmAsientoApertura
         'txtDiferenciaSoles
         '
         Me.txtDiferenciaSoles.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDiferenciaSoles.Location = New System.Drawing.Point(6, 143)
+        Me.txtDiferenciaSoles.Location = New System.Drawing.Point(479, 451)
         Me.txtDiferenciaSoles.Name = "txtDiferenciaSoles"
         Me.txtDiferenciaSoles.Size = New System.Drawing.Size(114, 22)
         Me.txtDiferenciaSoles.TabIndex = 47
@@ -240,7 +204,7 @@ Partial Class frmAsientoApertura
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Century Gothic", 8.5!)
-        Me.Label5.Location = New System.Drawing.Point(6, 75)
+        Me.Label5.Location = New System.Drawing.Point(776, 481)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(76, 17)
         Me.Label5.TabIndex = 46
@@ -250,11 +214,11 @@ Partial Class frmAsientoApertura
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 8.5!)
-        Me.Label3.Location = New System.Drawing.Point(6, 27)
+        Me.Label3.Location = New System.Drawing.Point(419, 455)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(73, 17)
+        Me.Label3.Size = New System.Drawing.Size(39, 17)
         Me.Label3.TabIndex = 45
-        Me.Label3.Text = "Total Debe"
+        Me.Label3.Text = "Soles"
         '
         'btnAgregar
         '
@@ -262,9 +226,9 @@ Partial Class frmAsientoApertura
         Me.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnAgregar.Font = New System.Drawing.Font("Century Gothic", 10.0!)
         Me.btnAgregar.ForeColor = System.Drawing.Color.White
-        Me.btnAgregar.Location = New System.Drawing.Point(182, 400)
+        Me.btnAgregar.Location = New System.Drawing.Point(109, 472)
         Me.btnAgregar.Name = "btnAgregar"
-        Me.btnAgregar.Size = New System.Drawing.Size(92, 35)
+        Me.btnAgregar.Size = New System.Drawing.Size(95, 35)
         Me.btnAgregar.TabIndex = 58
         Me.btnAgregar.Text = "GRAVAR"
         Me.btnAgregar.UseVisualStyleBackColor = False
@@ -275,11 +239,11 @@ Partial Class frmAsientoApertura
         Me.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnAceptar.Font = New System.Drawing.Font("Century Gothic", 10.0!)
         Me.btnAceptar.ForeColor = System.Drawing.Color.White
-        Me.btnAceptar.Location = New System.Drawing.Point(291, 400)
+        Me.btnAceptar.Location = New System.Drawing.Point(241, 471)
         Me.btnAceptar.Name = "btnAceptar"
-        Me.btnAceptar.Size = New System.Drawing.Size(149, 35)
+        Me.btnAceptar.Size = New System.Drawing.Size(97, 35)
         Me.btnAceptar.TabIndex = 59
-        Me.btnAceptar.Text = "TERMINAR"
+        Me.btnAceptar.Text = "FINALIZAR"
         Me.btnAceptar.UseVisualStyleBackColor = False
         '
         'dtFecha
@@ -327,27 +291,83 @@ Partial Class frmAsientoApertura
         Me.dgvLista.BackgroundColor = System.Drawing.Color.White
         Me.dgvLista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvLista.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.id, Me.id_asiento_apertura, Me.cuenta, Me.moneda, Me.tipo_cambio, Me.debe, Me.haber})
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Century Gothic", 8.5!)
-        DataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(114, Byte), Integer))
-        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvLista.DefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Century Gothic", 8.5!)
+        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(114, Byte), Integer))
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvLista.DefaultCellStyle = DataGridViewCellStyle1
         Me.dgvLista.Location = New System.Drawing.Point(26, 222)
         Me.dgvLista.Name = "dgvLista"
         Me.dgvLista.ReadOnly = True
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Century Gothic", 8.5!)
-        DataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(114, Byte), Integer))
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvLista.RowHeadersDefaultCellStyle = DataGridViewCellStyle6
-        Me.dgvLista.Size = New System.Drawing.Size(844, 145)
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Century Gothic", 8.5!)
+        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(114, Byte), Integer))
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvLista.RowHeadersDefaultCellStyle = DataGridViewCellStyle2
+        Me.dgvLista.Size = New System.Drawing.Size(844, 208)
         Me.dgvLista.TabIndex = 60
+        '
+        'id
+        '
+        Me.id.DataPropertyName = "id"
+        Me.id.HeaderText = "N°"
+        Me.id.Name = "id"
+        Me.id.ReadOnly = True
+        Me.id.Width = 40
+        '
+        'id_asiento_apertura
+        '
+        Me.id_asiento_apertura.DataPropertyName = "id_asiento_apertura"
+        Me.id_asiento_apertura.HeaderText = "id_asiento_apertura"
+        Me.id_asiento_apertura.Name = "id_asiento_apertura"
+        Me.id_asiento_apertura.ReadOnly = True
+        Me.id_asiento_apertura.Visible = False
+        '
+        'cuenta
+        '
+        Me.cuenta.DataPropertyName = "cuenta"
+        Me.cuenta.HeaderText = "Cuenta Contable o Denominación"
+        Me.cuenta.Name = "cuenta"
+        Me.cuenta.ReadOnly = True
+        Me.cuenta.Width = 400
+        '
+        'moneda
+        '
+        Me.moneda.DataPropertyName = "moneda"
+        Me.moneda.HeaderText = "Moneda"
+        Me.moneda.Name = "moneda"
+        Me.moneda.ReadOnly = True
+        Me.moneda.Width = 50
+        '
+        'tipo_cambio
+        '
+        Me.tipo_cambio.DataPropertyName = "tipo_cambio"
+        Me.tipo_cambio.HeaderText = "T. C."
+        Me.tipo_cambio.Name = "tipo_cambio"
+        Me.tipo_cambio.ReadOnly = True
+        Me.tipo_cambio.Width = 70
+        '
+        'debe
+        '
+        Me.debe.DataPropertyName = "debe"
+        Me.debe.HeaderText = "Debe"
+        Me.debe.Name = "debe"
+        Me.debe.ReadOnly = True
+        Me.debe.Width = 120
+        '
+        'haber
+        '
+        Me.haber.DataPropertyName = "haber"
+        Me.haber.HeaderText = "Haber"
+        Me.haber.Name = "haber"
+        Me.haber.ReadOnly = True
+        Me.haber.Width = 120
         '
         'TextBox1
         '
@@ -464,6 +484,19 @@ Partial Class frmAsientoApertura
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Agregar Cuenta"
         '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(114, Byte), Integer))
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.Font = New System.Drawing.Font("Century Gothic", 10.0!)
+        Me.Button2.ForeColor = System.Drawing.Color.White
+        Me.Button2.Location = New System.Drawing.Point(434, 110)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(113, 31)
+        Me.Button2.TabIndex = 81
+        Me.Button2.Text = "Agregar"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
         'TextBox5
         '
         Me.TextBox5.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -504,23 +537,10 @@ Partial Class frmAsientoApertura
         Me.TextBox6.Text = "0.00"
         Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(114, Byte), Integer))
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Century Gothic", 10.0!)
-        Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(434, 110)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(113, 31)
-        Me.Button2.TabIndex = 81
-        Me.Button2.Text = "Agregar"
-        Me.Button2.UseVisualStyleBackColor = False
-        '
         'TextBox7
         '
         Me.TextBox7.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox7.Location = New System.Drawing.Point(749, 3)
+        Me.TextBox7.Location = New System.Drawing.Point(749, 4)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(114, 22)
         Me.TextBox7.TabIndex = 80
@@ -597,68 +617,46 @@ Partial Class frmAsientoApertura
         Me.TextBox9.TabIndex = 85
         Me.TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'id
+        'Label4
         '
-        Me.id.DataPropertyName = "id"
-        Me.id.HeaderText = "N°"
-        Me.id.Name = "id"
-        Me.id.ReadOnly = True
-        Me.id.Width = 40
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Century Gothic", 8.5!)
+        Me.Label4.Location = New System.Drawing.Point(405, 504)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(53, 17)
+        Me.Label4.TabIndex = 87
+        Me.Label4.Text = "Dolares"
         '
-        'id_asiento_apertura
+        'Label9
         '
-        Me.id_asiento_apertura.DataPropertyName = "id_asiento_apertura"
-        Me.id_asiento_apertura.HeaderText = "id_asiento_apertura"
-        Me.id_asiento_apertura.Name = "id_asiento_apertura"
-        Me.id_asiento_apertura.ReadOnly = True
-        Me.id_asiento_apertura.Visible = False
-        '
-        'cuenta
-        '
-        Me.cuenta.DataPropertyName = "cuenta"
-        Me.cuenta.HeaderText = "Cuenta Contable o Denominación"
-        Me.cuenta.Name = "cuenta"
-        Me.cuenta.ReadOnly = True
-        Me.cuenta.Width = 400
-        '
-        'moneda
-        '
-        Me.moneda.DataPropertyName = "moneda"
-        Me.moneda.HeaderText = "Moneda"
-        Me.moneda.Name = "moneda"
-        Me.moneda.ReadOnly = True
-        Me.moneda.Width = 50
-        '
-        'tipo_cambio
-        '
-        Me.tipo_cambio.DataPropertyName = "tipo_cambio"
-        Me.tipo_cambio.HeaderText = "T. C."
-        Me.tipo_cambio.Name = "tipo_cambio"
-        Me.tipo_cambio.ReadOnly = True
-        Me.tipo_cambio.Width = 70
-        '
-        'debe
-        '
-        Me.debe.DataPropertyName = "debe"
-        Me.debe.HeaderText = "Debe"
-        Me.debe.Name = "debe"
-        Me.debe.ReadOnly = True
-        Me.debe.Width = 120
-        '
-        'haber
-        '
-        Me.haber.DataPropertyName = "haber"
-        Me.haber.HeaderText = "Haber"
-        Me.haber.Name = "haber"
-        Me.haber.ReadOnly = True
-        Me.haber.Width = 120
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Century Gothic", 8.5!)
+        Me.Label9.Location = New System.Drawing.Point(631, 481)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(73, 17)
+        Me.Label9.TabIndex = 88
+        Me.Label9.Text = "Total Debe"
         '
         'frmAsientoApertura
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(892, 561)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.txtDiferenciaSoles)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.txtHaberSoles)
+        Me.Controls.Add(Me.txtDiferenciaD)
+        Me.Controls.Add(Me.txtDebeD)
+        Me.Controls.Add(Me.txtHaberD)
+        Me.Controls.Add(Me.txtDebeSoles)
         Me.Controls.Add(Me.TextBox9)
         Me.Controls.Add(Me.Label20)
         Me.Controls.Add(Me.ComboBox1)
@@ -671,8 +669,6 @@ Partial Class frmAsientoApertura
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.txtNumeroAsiento)
         Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.GroupBox2)
-        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.btnAgregar)
         Me.Controls.Add(Me.btnAceptar)
         Me.Controls.Add(Me.dtFecha)
@@ -682,10 +678,6 @@ Partial Class frmAsientoApertura
         Me.Controls.Add(Me.dgvLista)
         Me.Name = "frmAsientoApertura"
         Me.Text = "frmAsientoApertura"
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
         CType(Me.dgvLista, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
@@ -695,14 +687,12 @@ Partial Class frmAsientoApertura
     End Sub
     Friend WithEvents txtNumeroAsiento As System.Windows.Forms.TextBox
     Friend WithEvents Label8 As System.Windows.Forms.Label
-    Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents txtDebeD As System.Windows.Forms.TextBox
     Friend WithEvents txtDiferenciaD As System.Windows.Forms.TextBox
     Friend WithEvents txtHaberD As System.Windows.Forms.TextBox
-    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents txtDebeSoles As System.Windows.Forms.TextBox
     Friend WithEvents txtHaberSoles As System.Windows.Forms.TextBox
@@ -746,4 +736,6 @@ Partial Class frmAsientoApertura
     Friend WithEvents haber As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents TextBox9 As System.Windows.Forms.TextBox
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label9 As System.Windows.Forms.Label
 End Class
