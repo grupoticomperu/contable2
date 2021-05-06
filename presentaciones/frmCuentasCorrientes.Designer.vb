@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmBancos
+Partial Class frmCuentasCorrientes
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -28,12 +28,18 @@ Partial Class frmBancos
         Me.btnImprimir = New System.Windows.Forms.Button()
         Me.btnExportar = New System.Windows.Forms.Button()
         Me.gbNivel = New System.Windows.Forms.GroupBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.chkEstado = New System.Windows.Forms.CheckBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtNombreBanco = New System.Windows.Forms.TextBox()
         Me.Label13 = New System.Windows.Forms.Label()
-        Me.txtBanco = New System.Windows.Forms.TextBox()
         Me.btnEliminar = New System.Windows.Forms.Button()
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.lblTituloForm = New System.Windows.Forms.Label()
@@ -59,10 +65,10 @@ Partial Class frmBancos
         Me.btnImprimir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnImprimir.Font = New System.Drawing.Font("Century Gothic", 10.0!)
         Me.btnImprimir.ForeColor = System.Drawing.Color.White
-        Me.btnImprimir.Location = New System.Drawing.Point(580, 28)
+        Me.btnImprimir.Location = New System.Drawing.Point(599, 33)
         Me.btnImprimir.Name = "btnImprimir"
         Me.btnImprimir.Size = New System.Drawing.Size(78, 30)
-        Me.btnImprimir.TabIndex = 281
+        Me.btnImprimir.TabIndex = 295
         Me.btnImprimir.Text = "Imprimir"
         Me.btnImprimir.UseVisualStyleBackColor = False
         '
@@ -72,32 +78,104 @@ Partial Class frmBancos
         Me.btnExportar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnExportar.Font = New System.Drawing.Font("Century Gothic", 10.0!)
         Me.btnExportar.ForeColor = System.Drawing.Color.White
-        Me.btnExportar.Location = New System.Drawing.Point(496, 28)
+        Me.btnExportar.Location = New System.Drawing.Point(515, 33)
         Me.btnExportar.Name = "btnExportar"
         Me.btnExportar.Size = New System.Drawing.Size(78, 30)
-        Me.btnExportar.TabIndex = 280
+        Me.btnExportar.TabIndex = 294
         Me.btnExportar.Text = "Exportar"
         Me.btnExportar.UseVisualStyleBackColor = False
         '
         'gbNivel
         '
+        Me.gbNivel.Controls.Add(Me.Label5)
+        Me.gbNivel.Controls.Add(Me.TextBox1)
+        Me.gbNivel.Controls.Add(Me.ComboBox3)
+        Me.gbNivel.Controls.Add(Me.Label4)
+        Me.gbNivel.Controls.Add(Me.ComboBox2)
+        Me.gbNivel.Controls.Add(Me.Label3)
+        Me.gbNivel.Controls.Add(Me.ComboBox1)
         Me.gbNivel.Controls.Add(Me.chkEstado)
         Me.gbNivel.Controls.Add(Me.Label2)
         Me.gbNivel.Controls.Add(Me.Label1)
         Me.gbNivel.Controls.Add(Me.txtNombreBanco)
         Me.gbNivel.Controls.Add(Me.Label13)
-        Me.gbNivel.Controls.Add(Me.txtBanco)
-        Me.gbNivel.Location = New System.Drawing.Point(36, 355)
+        Me.gbNivel.Location = New System.Drawing.Point(55, 360)
         Me.gbNivel.Name = "gbNivel"
-        Me.gbNivel.Size = New System.Drawing.Size(599, 154)
-        Me.gbNivel.TabIndex = 279
+        Me.gbNivel.Size = New System.Drawing.Size(629, 286)
+        Me.gbNivel.TabIndex = 293
         Me.gbNivel.TabStop = False
         Me.gbNivel.Text = "Datos del Usuario"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label5.Location = New System.Drawing.Point(82, 209)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(24, 13)
+        Me.Label5.TabIndex = 238
+        Me.Label5.Text = "CCI"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.TextBox1.Location = New System.Drawing.Point(148, 202)
+        Me.TextBox1.MaxLength = 1000
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(324, 20)
+        Me.TextBox1.TabIndex = 237
+        '
+        'ComboBox3
+        '
+        Me.ComboBox3.FormattingEnabled = True
+        Me.ComboBox3.Location = New System.Drawing.Point(148, 114)
+        Me.ComboBox3.Name = "ComboBox3"
+        Me.ComboBox3.Size = New System.Drawing.Size(255, 21)
+        Me.ComboBox3.TabIndex = 236
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label4.Location = New System.Drawing.Point(20, 117)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(86, 13)
+        Me.Label4.TabIndex = 235
+        Me.Label4.Text = "Cuenta Contable"
+        '
+        'ComboBox2
+        '
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Location = New System.Drawing.Point(148, 75)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(255, 21)
+        Me.ComboBox2.TabIndex = 234
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(60, 78)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(46, 13)
+        Me.Label3.TabIndex = 233
+        Me.Label3.Text = "Moneda"
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(148, 38)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(255, 21)
+        Me.ComboBox1.TabIndex = 232
         '
         'chkEstado
         '
         Me.chkEstado.AutoSize = True
-        Me.chkEstado.Location = New System.Drawing.Point(148, 113)
+        Me.chkEstado.Location = New System.Drawing.Point(148, 237)
         Me.chkEstado.Name = "chkEstado"
         Me.chkEstado.Size = New System.Drawing.Size(15, 14)
         Me.chkEstado.TabIndex = 231
@@ -108,7 +186,7 @@ Partial Class frmBancos
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(60, 114)
+        Me.Label2.Location = New System.Drawing.Point(60, 238)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(40, 13)
         Me.Label2.TabIndex = 230
@@ -119,16 +197,16 @@ Partial Class frmBancos
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(23, 76)
+        Me.Label1.Location = New System.Drawing.Point(23, 166)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(77, 13)
+        Me.Label1.Size = New System.Drawing.Size(86, 13)
         Me.Label1.TabIndex = 229
-        Me.Label1.Text = "Nombre banco"
+        Me.Label1.Text = "Cuenta Corriente"
         '
         'txtNombreBanco
         '
         Me.txtNombreBanco.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.txtNombreBanco.Location = New System.Drawing.Point(148, 73)
+        Me.txtNombreBanco.Location = New System.Drawing.Point(148, 163)
         Me.txtNombreBanco.MaxLength = 1000
         Me.txtNombreBanco.Name = "txtNombreBanco"
         Me.txtNombreBanco.Size = New System.Drawing.Size(324, 20)
@@ -145,25 +223,16 @@ Partial Class frmBancos
         Me.Label13.TabIndex = 227
         Me.Label13.Text = "Banco"
         '
-        'txtBanco
-        '
-        Me.txtBanco.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.txtBanco.Location = New System.Drawing.Point(150, 34)
-        Me.txtBanco.MaxLength = 1000
-        Me.txtBanco.Name = "txtBanco"
-        Me.txtBanco.Size = New System.Drawing.Size(324, 20)
-        Me.txtBanco.TabIndex = 1
-        '
         'btnEliminar
         '
         Me.btnEliminar.BackColor = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(114, Byte), Integer))
         Me.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnEliminar.Font = New System.Drawing.Font("Century Gothic", 10.0!)
         Me.btnEliminar.ForeColor = System.Drawing.Color.White
-        Me.btnEliminar.Location = New System.Drawing.Point(436, 531)
+        Me.btnEliminar.Location = New System.Drawing.Point(455, 652)
         Me.btnEliminar.Name = "btnEliminar"
         Me.btnEliminar.Size = New System.Drawing.Size(114, 36)
-        Me.btnEliminar.TabIndex = 272
+        Me.btnEliminar.TabIndex = 286
         Me.btnEliminar.Text = "Eliminar"
         Me.btnEliminar.UseVisualStyleBackColor = False
         '
@@ -173,10 +242,10 @@ Partial Class frmBancos
         Me.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSalir.Font = New System.Drawing.Font("Century Gothic", 10.0!)
         Me.btnSalir.ForeColor = System.Drawing.Color.White
-        Me.btnSalir.Location = New System.Drawing.Point(552, 531)
+        Me.btnSalir.Location = New System.Drawing.Point(571, 652)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Size = New System.Drawing.Size(106, 36)
-        Me.btnSalir.TabIndex = 273
+        Me.btnSalir.TabIndex = 287
         Me.btnSalir.Text = "Salir"
         Me.btnSalir.UseVisualStyleBackColor = False
         '
@@ -186,12 +255,12 @@ Partial Class frmBancos
         Me.lblTituloForm.BackColor = System.Drawing.Color.Transparent
         Me.lblTituloForm.Font = New System.Drawing.Font("Century Gothic", 20.25!)
         Me.lblTituloForm.ForeColor = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(114, Byte), Integer))
-        Me.lblTituloForm.Location = New System.Drawing.Point(19, 18)
+        Me.lblTituloForm.Location = New System.Drawing.Point(49, 25)
         Me.lblTituloForm.Name = "lblTituloForm"
         Me.lblTituloForm.Padding = New System.Windows.Forms.Padding(10)
-        Me.lblTituloForm.Size = New System.Drawing.Size(130, 53)
-        Me.lblTituloForm.TabIndex = 278
-        Me.lblTituloForm.Text = "Bancos"
+        Me.lblTituloForm.Size = New System.Drawing.Size(286, 53)
+        Me.lblTituloForm.TabIndex = 292
+        Me.lblTituloForm.Text = "Cuentas Corrientes"
         '
         'btnModificar
         '
@@ -199,10 +268,10 @@ Partial Class frmBancos
         Me.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnModificar.Font = New System.Drawing.Font("Century Gothic", 10.0!)
         Me.btnModificar.ForeColor = System.Drawing.Color.White
-        Me.btnModificar.Location = New System.Drawing.Point(111, 531)
+        Me.btnModificar.Location = New System.Drawing.Point(130, 652)
         Me.btnModificar.Name = "btnModificar"
         Me.btnModificar.Size = New System.Drawing.Size(95, 36)
-        Me.btnModificar.TabIndex = 269
+        Me.btnModificar.TabIndex = 283
         Me.btnModificar.Text = "Modificar"
         Me.btnModificar.UseVisualStyleBackColor = False
         '
@@ -212,10 +281,10 @@ Partial Class frmBancos
         Me.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnGuardar.Font = New System.Drawing.Font("Century Gothic", 10.0!)
         Me.btnGuardar.ForeColor = System.Drawing.Color.White
-        Me.btnGuardar.Location = New System.Drawing.Point(212, 531)
+        Me.btnGuardar.Location = New System.Drawing.Point(231, 652)
         Me.btnGuardar.Name = "btnGuardar"
         Me.btnGuardar.Size = New System.Drawing.Size(114, 36)
-        Me.btnGuardar.TabIndex = 270
+        Me.btnGuardar.TabIndex = 284
         Me.btnGuardar.Text = "Guardar"
         Me.btnGuardar.UseVisualStyleBackColor = False
         '
@@ -225,10 +294,10 @@ Partial Class frmBancos
         Me.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCancelar.Font = New System.Drawing.Font("Century Gothic", 10.0!)
         Me.btnCancelar.ForeColor = System.Drawing.Color.White
-        Me.btnCancelar.Location = New System.Drawing.Point(328, 531)
+        Me.btnCancelar.Location = New System.Drawing.Point(347, 652)
         Me.btnCancelar.Name = "btnCancelar"
         Me.btnCancelar.Size = New System.Drawing.Size(106, 36)
-        Me.btnCancelar.TabIndex = 271
+        Me.btnCancelar.TabIndex = 285
         Me.btnCancelar.Text = "Cancelar"
         Me.btnCancelar.UseVisualStyleBackColor = False
         '
@@ -238,10 +307,10 @@ Partial Class frmBancos
         Me.btnNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnNuevo.Font = New System.Drawing.Font("Century Gothic", 10.0!)
         Me.btnNuevo.ForeColor = System.Drawing.Color.White
-        Me.btnNuevo.Location = New System.Drawing.Point(7, 531)
+        Me.btnNuevo.Location = New System.Drawing.Point(26, 652)
         Me.btnNuevo.Name = "btnNuevo"
         Me.btnNuevo.Size = New System.Drawing.Size(98, 36)
-        Me.btnNuevo.TabIndex = 268
+        Me.btnNuevo.TabIndex = 282
         Me.btnNuevo.Text = "Nuevo"
         Me.btnNuevo.UseVisualStyleBackColor = False
         '
@@ -249,20 +318,20 @@ Partial Class frmBancos
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Century Gothic", 8.0!)
-        Me.Label10.Location = New System.Drawing.Point(33, 83)
+        Me.Label10.Location = New System.Drawing.Point(52, 88)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(89, 16)
-        Me.Label10.TabIndex = 277
+        Me.Label10.TabIndex = 291
         Me.Label10.Text = "Dato a buscar:"
         '
         'txtDato
         '
         Me.txtDato.Font = New System.Drawing.Font("Century Gothic", 11.0!)
-        Me.txtDato.Location = New System.Drawing.Point(128, 78)
+        Me.txtDato.Location = New System.Drawing.Point(147, 83)
         Me.txtDato.MaxLength = 1000
         Me.txtDato.Name = "txtDato"
         Me.txtDato.Size = New System.Drawing.Size(227, 25)
-        Me.txtDato.TabIndex = 276
+        Me.txtDato.TabIndex = 290
         Me.txtDato.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'btnBuscar
@@ -271,10 +340,10 @@ Partial Class frmBancos
         Me.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnBuscar.Font = New System.Drawing.Font("Century Gothic", 10.0!)
         Me.btnBuscar.ForeColor = System.Drawing.Color.White
-        Me.btnBuscar.Location = New System.Drawing.Point(361, 75)
+        Me.btnBuscar.Location = New System.Drawing.Point(380, 80)
         Me.btnBuscar.Name = "btnBuscar"
         Me.btnBuscar.Size = New System.Drawing.Size(78, 30)
-        Me.btnBuscar.TabIndex = 275
+        Me.btnBuscar.TabIndex = 289
         Me.btnBuscar.Text = "Buscar"
         Me.btnBuscar.UseVisualStyleBackColor = False
         '
@@ -304,11 +373,11 @@ Partial Class frmBancos
         DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText
         DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.dgvLista.DefaultCellStyle = DataGridViewCellStyle3
-        Me.dgvLista.Location = New System.Drawing.Point(36, 116)
+        Me.dgvLista.Location = New System.Drawing.Point(55, 121)
         Me.dgvLista.Name = "dgvLista"
         Me.dgvLista.ReadOnly = True
         Me.dgvLista.Size = New System.Drawing.Size(629, 223)
-        Me.dgvLista.TabIndex = 274
+        Me.dgvLista.TabIndex = 288
         '
         'id_banco
         '
@@ -342,11 +411,11 @@ Partial Class frmBancos
         Me.estado_banco.ReadOnly = True
         Me.estado_banco.Visible = False
         '
-        'frmBancos
+        'frmCuentasCorrientes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(678, 595)
+        Me.ClientSize = New System.Drawing.Size(714, 710)
         Me.Controls.Add(Me.btnImprimir)
         Me.Controls.Add(Me.btnExportar)
         Me.Controls.Add(Me.gbNivel)
@@ -361,9 +430,8 @@ Partial Class frmBancos
         Me.Controls.Add(Me.txtDato)
         Me.Controls.Add(Me.btnBuscar)
         Me.Controls.Add(Me.dgvLista)
-        Me.Name = "frmBancos"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Bancos"
+        Me.Name = "frmCuentasCorrientes"
+        Me.Text = "frmCuentasCorrientes"
         Me.gbNivel.ResumeLayout(False)
         Me.gbNivel.PerformLayout()
         CType(Me.dgvLista, System.ComponentModel.ISupportInitialize).EndInit()
@@ -374,8 +442,11 @@ Partial Class frmBancos
     Friend WithEvents btnImprimir As System.Windows.Forms.Button
     Friend WithEvents btnExportar As System.Windows.Forms.Button
     Friend WithEvents gbNivel As System.Windows.Forms.GroupBox
+    Friend WithEvents chkEstado As System.Windows.Forms.CheckBox
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents txtNombreBanco As System.Windows.Forms.TextBox
     Friend WithEvents Label13 As System.Windows.Forms.Label
-    Friend WithEvents txtBanco As System.Windows.Forms.TextBox
     Friend WithEvents btnEliminar As System.Windows.Forms.Button
     Friend WithEvents btnSalir As System.Windows.Forms.Button
     Friend WithEvents lblTituloForm As System.Windows.Forms.Label
@@ -391,8 +462,11 @@ Partial Class frmBancos
     Friend WithEvents nom_banco As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents nom_comerial As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents estado_banco As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents chkEstado As System.Windows.Forms.CheckBox
-    Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents txtNombreBanco As System.Windows.Forms.TextBox
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents ComboBox3 As System.Windows.Forms.ComboBox
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
 End Class

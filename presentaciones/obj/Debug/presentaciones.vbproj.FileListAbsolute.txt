@@ -228,3 +228,4 @@ C:\TicomContable Michael 2015\presentaciones\obj\Debug\presentaciones.LoginForm1
 C:\TicomContable Michael 2015\presentaciones\obj\Debug\presentaciones.MDIPrincipal.resources
 C:\TicomContable Michael 2015\presentaciones\obj\Debug\presentaciones.Resources.resources
 C:\TicomContable Michael 2015\presentaciones\obj\Debug\presentaciones.vbproj.GenerateResource.Cache
+C:\TicomContable Michael 2015\presentaciones\obj\Debug\presentaciones.frmCuentasCorrientes.resources

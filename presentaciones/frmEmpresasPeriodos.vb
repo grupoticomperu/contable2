@@ -136,4 +136,8 @@ Public Class frmEmpresasPeriodos
         
        
     End Sub
+
+    Private Sub cboEmpresas_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboEmpresas.SelectedIndexChanged
+
+    End Sub
 End Class

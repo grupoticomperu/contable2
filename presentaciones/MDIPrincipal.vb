@@ -213,4 +213,10 @@ Public Class MDIPrincipal
         MDIform.MdiParent = Me
         MDIform.Show()
     End Sub
+
+    Private Sub CuentasCorrientesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CuentasCorrientesToolStripMenuItem.Click
+        Dim MDIform As New frmCuentasCorrientes
+        MDIform.MdiParent = Me
+        MDIform.Show()
+    End Sub
 End Class

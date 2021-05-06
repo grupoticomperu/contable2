@@ -1,0 +1,7 @@
+﻿Imports Negocios
+Public Class frmCuentasCorrientes
+
+    Private Sub frmCuentasCorrientes_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+End Class

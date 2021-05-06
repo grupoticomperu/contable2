@@ -96,6 +96,12 @@
     <Compile Include="frmCodigodelLibrooRegistro.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmCuentasCorrientes.Designer.vb">
+      <DependentUpon>frmCuentasCorrientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCuentasCorrientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmEleccionEmpresa.Designer.vb">
       <DependentUpon>frmEleccionEmpresa.vb</DependentUpon>
     </Compile>
@@ -256,6 +262,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmCodigodelLibrooRegistro.resx">
       <DependentUpon>frmCodigodelLibrooRegistro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCuentasCorrientes.resx">
+      <DependentUpon>frmCuentasCorrientes.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEleccionEmpresa.resx">
       <DependentUpon>frmEleccionEmpresa.vb</DependentUpon>
