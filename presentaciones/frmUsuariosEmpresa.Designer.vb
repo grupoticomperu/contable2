@@ -22,7 +22,7 @@ Partial Class frmUsuariosEmpresa
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.gbCtasContables = New System.Windows.Forms.Panel()
         Me.btnGuardar = New System.Windows.Forms.Button()
@@ -180,8 +180,8 @@ Partial Class frmUsuariosEmpresa
         'id_ctacontable
         '
         Me.id_ctacontable.DataPropertyName = "nom_ap_usuarios"
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
-        Me.id_ctacontable.DefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.White
+        Me.id_ctacontable.DefaultCellStyle = DataGridViewCellStyle2
         Me.id_ctacontable.HeaderText = "Login"
         Me.id_ctacontable.Name = "id_ctacontable"
         Me.id_ctacontable.ReadOnly = True

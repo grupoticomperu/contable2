@@ -629,7 +629,7 @@ Partial Class frmPlanContable
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1038, 591)
+        Me.ClientSize = New System.Drawing.Size(1048, 621)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.gbCtasContables)
         Me.Controls.Add(Me.Button4)

@@ -95,4 +95,12 @@ Public Class frmUsuariosEmpresa
     Private Sub dgvLista_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvLista.CellContentClick
 
     End Sub
+
+    Private Sub cboUsuarios_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboUsuarios.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub gbCtasContables_Paint(sender As Object, e As PaintEventArgs) Handles gbCtasContables.Paint
+
+    End Sub
 End Class

@@ -29,16 +29,16 @@ Partial Class frmCuentasCorrientes
         Me.btnExportar = New System.Windows.Forms.Button()
         Me.gbNivel = New System.Windows.Forms.GroupBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
+        Me.txtCCI = New System.Windows.Forms.TextBox()
+        Me.cboCuentasContables = New System.Windows.Forms.ComboBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.cboMonedas = New System.Windows.Forms.ComboBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.cboBancos = New System.Windows.Forms.ComboBox()
         Me.chkEstado = New System.Windows.Forms.CheckBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.txtNombreBanco = New System.Windows.Forms.TextBox()
+        Me.txtCuentaCorriente = New System.Windows.Forms.TextBox()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.btnEliminar = New System.Windows.Forms.Button()
         Me.btnSalir = New System.Windows.Forms.Button()
@@ -51,10 +51,10 @@ Partial Class frmCuentasCorrientes
         Me.txtDato = New System.Windows.Forms.TextBox()
         Me.btnBuscar = New System.Windows.Forms.Button()
         Me.dgvLista = New System.Windows.Forms.DataGridView()
-        Me.id_banco = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.id = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ctacte = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.nom_banco = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.nom_comerial = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.estado_banco = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.nom_moneda = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.gbNivel.SuspendLayout()
         CType(Me.dgvLista, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -88,16 +88,16 @@ Partial Class frmCuentasCorrientes
         'gbNivel
         '
         Me.gbNivel.Controls.Add(Me.Label5)
-        Me.gbNivel.Controls.Add(Me.TextBox1)
-        Me.gbNivel.Controls.Add(Me.ComboBox3)
+        Me.gbNivel.Controls.Add(Me.txtCCI)
+        Me.gbNivel.Controls.Add(Me.cboCuentasContables)
         Me.gbNivel.Controls.Add(Me.Label4)
-        Me.gbNivel.Controls.Add(Me.ComboBox2)
+        Me.gbNivel.Controls.Add(Me.cboMonedas)
         Me.gbNivel.Controls.Add(Me.Label3)
-        Me.gbNivel.Controls.Add(Me.ComboBox1)
+        Me.gbNivel.Controls.Add(Me.cboBancos)
         Me.gbNivel.Controls.Add(Me.chkEstado)
         Me.gbNivel.Controls.Add(Me.Label2)
         Me.gbNivel.Controls.Add(Me.Label1)
-        Me.gbNivel.Controls.Add(Me.txtNombreBanco)
+        Me.gbNivel.Controls.Add(Me.txtCuentaCorriente)
         Me.gbNivel.Controls.Add(Me.Label13)
         Me.gbNivel.Location = New System.Drawing.Point(55, 360)
         Me.gbNivel.Name = "gbNivel"
@@ -117,22 +117,22 @@ Partial Class frmCuentasCorrientes
         Me.Label5.TabIndex = 238
         Me.Label5.Text = "CCI"
         '
-        'TextBox1
+        'txtCCI
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.TextBox1.Location = New System.Drawing.Point(148, 202)
-        Me.TextBox1.MaxLength = 1000
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(324, 20)
-        Me.TextBox1.TabIndex = 237
+        Me.txtCCI.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.txtCCI.Location = New System.Drawing.Point(148, 202)
+        Me.txtCCI.MaxLength = 1000
+        Me.txtCCI.Name = "txtCCI"
+        Me.txtCCI.Size = New System.Drawing.Size(324, 20)
+        Me.txtCCI.TabIndex = 237
         '
-        'ComboBox3
+        'cboCuentasContables
         '
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(148, 114)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(255, 21)
-        Me.ComboBox3.TabIndex = 236
+        Me.cboCuentasContables.FormattingEnabled = True
+        Me.cboCuentasContables.Location = New System.Drawing.Point(148, 114)
+        Me.cboCuentasContables.Name = "cboCuentasContables"
+        Me.cboCuentasContables.Size = New System.Drawing.Size(255, 21)
+        Me.cboCuentasContables.TabIndex = 236
         '
         'Label4
         '
@@ -145,13 +145,13 @@ Partial Class frmCuentasCorrientes
         Me.Label4.TabIndex = 235
         Me.Label4.Text = "Cuenta Contable"
         '
-        'ComboBox2
+        'cboMonedas
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(148, 75)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(255, 21)
-        Me.ComboBox2.TabIndex = 234
+        Me.cboMonedas.FormattingEnabled = True
+        Me.cboMonedas.Location = New System.Drawing.Point(148, 75)
+        Me.cboMonedas.Name = "cboMonedas"
+        Me.cboMonedas.Size = New System.Drawing.Size(255, 21)
+        Me.cboMonedas.TabIndex = 234
         '
         'Label3
         '
@@ -164,13 +164,13 @@ Partial Class frmCuentasCorrientes
         Me.Label3.TabIndex = 233
         Me.Label3.Text = "Moneda"
         '
-        'ComboBox1
+        'cboBancos
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(148, 38)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(255, 21)
-        Me.ComboBox1.TabIndex = 232
+        Me.cboBancos.FormattingEnabled = True
+        Me.cboBancos.Location = New System.Drawing.Point(148, 38)
+        Me.cboBancos.Name = "cboBancos"
+        Me.cboBancos.Size = New System.Drawing.Size(255, 21)
+        Me.cboBancos.TabIndex = 232
         '
         'chkEstado
         '
@@ -203,14 +203,14 @@ Partial Class frmCuentasCorrientes
         Me.Label1.TabIndex = 229
         Me.Label1.Text = "Cuenta Corriente"
         '
-        'txtNombreBanco
+        'txtCuentaCorriente
         '
-        Me.txtNombreBanco.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.txtNombreBanco.Location = New System.Drawing.Point(148, 163)
-        Me.txtNombreBanco.MaxLength = 1000
-        Me.txtNombreBanco.Name = "txtNombreBanco"
-        Me.txtNombreBanco.Size = New System.Drawing.Size(324, 20)
-        Me.txtNombreBanco.TabIndex = 228
+        Me.txtCuentaCorriente.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.txtCuentaCorriente.Location = New System.Drawing.Point(148, 163)
+        Me.txtCuentaCorriente.MaxLength = 1000
+        Me.txtCuentaCorriente.Name = "txtCuentaCorriente"
+        Me.txtCuentaCorriente.Size = New System.Drawing.Size(324, 20)
+        Me.txtCuentaCorriente.TabIndex = 228
         '
         'Label13
         '
@@ -364,7 +364,7 @@ Partial Class frmCuentasCorrientes
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.dgvLista.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.dgvLista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvLista.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.id_banco, Me.nom_banco, Me.nom_comerial, Me.estado_banco})
+        Me.dgvLista.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.id, Me.ctacte, Me.nom_banco, Me.nom_moneda})
         DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window
         DataGridViewCellStyle3.Font = New System.Drawing.Font("Century Gothic", 8.5!)
@@ -376,16 +376,24 @@ Partial Class frmCuentasCorrientes
         Me.dgvLista.Location = New System.Drawing.Point(55, 121)
         Me.dgvLista.Name = "dgvLista"
         Me.dgvLista.ReadOnly = True
-        Me.dgvLista.Size = New System.Drawing.Size(629, 223)
+        Me.dgvLista.Size = New System.Drawing.Size(622, 223)
         Me.dgvLista.TabIndex = 288
         '
-        'id_banco
+        'id
         '
-        Me.id_banco.DataPropertyName = "id_banco"
-        Me.id_banco.HeaderText = "id"
-        Me.id_banco.Name = "id_banco"
-        Me.id_banco.ReadOnly = True
-        Me.id_banco.Visible = False
+        Me.id.DataPropertyName = "id"
+        Me.id.HeaderText = "id"
+        Me.id.Name = "id"
+        Me.id.ReadOnly = True
+        Me.id.Visible = False
+        '
+        'ctacte
+        '
+        Me.ctacte.DataPropertyName = "ctacte"
+        Me.ctacte.HeaderText = "Cta. Cte."
+        Me.ctacte.Name = "ctacte"
+        Me.ctacte.ReadOnly = True
+        Me.ctacte.Width = 180
         '
         'nom_banco
         '
@@ -393,23 +401,14 @@ Partial Class frmCuentasCorrientes
         Me.nom_banco.HeaderText = "Banco"
         Me.nom_banco.Name = "nom_banco"
         Me.nom_banco.ReadOnly = True
-        Me.nom_banco.Width = 180
+        Me.nom_banco.Width = 300
         '
-        'nom_comerial
+        'nom_moneda
         '
-        Me.nom_comerial.DataPropertyName = "nom_comercial"
-        Me.nom_comerial.HeaderText = "Nom Comercial"
-        Me.nom_comerial.Name = "nom_comerial"
-        Me.nom_comerial.ReadOnly = True
-        Me.nom_comerial.Width = 400
-        '
-        'estado_banco
-        '
-        Me.estado_banco.DataPropertyName = "estado_banco"
-        Me.estado_banco.HeaderText = "estado"
-        Me.estado_banco.Name = "estado_banco"
-        Me.estado_banco.ReadOnly = True
-        Me.estado_banco.Visible = False
+        Me.nom_moneda.DataPropertyName = "nom_moneda"
+        Me.nom_moneda.HeaderText = "Moneda"
+        Me.nom_moneda.Name = "nom_moneda"
+        Me.nom_moneda.ReadOnly = True
         '
         'frmCuentasCorrientes
         '
@@ -445,7 +444,7 @@ Partial Class frmCuentasCorrientes
     Friend WithEvents chkEstado As System.Windows.Forms.CheckBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents txtNombreBanco As System.Windows.Forms.TextBox
+    Friend WithEvents txtCuentaCorriente As System.Windows.Forms.TextBox
     Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents btnEliminar As System.Windows.Forms.Button
     Friend WithEvents btnSalir As System.Windows.Forms.Button
@@ -458,15 +457,15 @@ Partial Class frmCuentasCorrientes
     Friend WithEvents txtDato As System.Windows.Forms.TextBox
     Friend WithEvents btnBuscar As System.Windows.Forms.Button
     Friend WithEvents dgvLista As System.Windows.Forms.DataGridView
-    Friend WithEvents id_banco As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents nom_banco As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents nom_comerial As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents estado_banco As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents ComboBox3 As System.Windows.Forms.ComboBox
+    Friend WithEvents txtCCI As System.Windows.Forms.TextBox
+    Friend WithEvents cboCuentasContables As System.Windows.Forms.ComboBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
+    Friend WithEvents cboMonedas As System.Windows.Forms.ComboBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents cboBancos As System.Windows.Forms.ComboBox
+    Friend WithEvents id As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents ctacte As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents nom_banco As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents nom_moneda As System.Windows.Forms.DataGridViewTextBoxColumn
 End Class
